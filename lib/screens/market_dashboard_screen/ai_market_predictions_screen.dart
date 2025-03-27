@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:my_app/services/vertex_ai_service.dart';
 
 class AIMarketPredictionsScreen extends StatefulWidget {
+  const AIMarketPredictionsScreen({super.key});
+
   @override
   _AIMarketPredictionsScreenState createState() => _AIMarketPredictionsScreenState();
 }

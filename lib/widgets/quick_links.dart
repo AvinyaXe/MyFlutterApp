@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 class QuickLinks extends StatelessWidget {
   final Function(String) onSectionSelected;
   
-  const QuickLinks({Key? key, required this.onSectionSelected}) : super(key: key);
+  const QuickLinks({super.key, required this.onSectionSelected});
 
   @override
   Widget build(BuildContext context) {

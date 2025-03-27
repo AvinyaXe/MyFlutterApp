@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 
 class MarketOverviewScreen extends StatelessWidget {
-  MarketOverviewScreen({Key? key}) : super(key: key); // Removed `const`
+  MarketOverviewScreen({super.key}); // Removed `const`
 
   @override
   Widget build(BuildContext context) {

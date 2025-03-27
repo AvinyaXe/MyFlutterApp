@@ -1,0 +1,17 @@
+.env
+.dart_tool/
+.packages
+.pub/
+.idea/
+.vscode/
+*.iml
+*.log
+*.log.*
+*.log-*
+*.log/*
+  
+build/
+packages/
+pubspec.lock
+pubspec.yaml.lock
+pubspec.yaml

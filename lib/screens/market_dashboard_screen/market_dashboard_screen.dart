@@ -3,7 +3,7 @@ import 'package:my_app/screens/market_dashboard_screen/market_overview_screen.da
 import 'package:my_app/screens/market_dashboard_screen/ai_market_predictions_screen.dart';
 
 class MarketDashboardScreen extends StatelessWidget {
-  const MarketDashboardScreen({Key? key}) : super(key: key);
+  const MarketDashboardScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

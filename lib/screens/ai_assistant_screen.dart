@@ -5,7 +5,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 
 class AIAssistantScreen extends StatefulWidget {
-  const AIAssistantScreen({Key? key}) : super(key: key);
+  const AIAssistantScreen({super.key});
 
   @override
   _AIAssistantScreenState createState() => _AIAssistantScreenState();

@@ -3,7 +3,7 @@ import 'package:my_app/services/vertex_ai_service.dart';
 
 class AIMarketPredictionsScreen extends StatefulWidget {
   const AIMarketPredictionsScreen({super.key});
-
+// gulshan
   @override
   _AIMarketPredictionsScreenState createState() => _AIMarketPredictionsScreenState();
 }

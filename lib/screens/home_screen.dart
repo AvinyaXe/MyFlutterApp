@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:my_app/screens/ai_assistant_screen.dart';
 import 'package:my_app/screens/investment_tips_screen.dart';
 import 'package:my_app/utils/theme_provider.dart';
-import 'package:my_app/screens/market_dashboard_screen/market_dashboard_screen.dart';
+import 'package:my_app/screens/market_dashboard/market_dashboard_screen.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 
 class HomeScreen extends StatefulWidget {

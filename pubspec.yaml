@@ -41,3 +41,7 @@ flutter:
 
   assets:
     - assets/keys/vertex_ai_key.json
+    - assets/images/crypto.jpg
+    - assets/images/global_economy.jpg
+    - assets/images/stock_market.jpg
+    - assets/images/real_estate_trends.jpg

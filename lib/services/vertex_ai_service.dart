@@ -3,13 +3,13 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/services.dart' show rootBundle;
 
 class VertexAIService {
-  final String projectId = 'your-gcp-project-id';
+  final String projectId = 'stately-equinox-454916-d9';
   final String endpoint = 'https://us-central1-aiplatform.googleapis.com/v1/projects/your-gcp-project-id/locations/us-central1/publishers/google/models/gemini-pro:predict';
 
   Future<String> getPrediction(String input) async {
     try {
       // Load service account credentials
-      final jsonString = await rootBundle.loadString('assets/vertex_ai_key.json');
+      final jsonString = await rootBundle.loadString('assets/keys/vertex_ai_key.json');
       final credentials = json.decode(jsonString);
 
       // Get access token

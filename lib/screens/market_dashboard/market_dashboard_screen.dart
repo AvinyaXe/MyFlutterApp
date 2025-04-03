@@ -5,6 +5,7 @@ import 'package:my_app/screens/market_dashboard/ai_market_predictions_screen.dar
 class MarketDashboardScreen extends StatelessWidget {
   const MarketDashboardScreen({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

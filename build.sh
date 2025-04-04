@@ -21,5 +21,3 @@ flutter pub get
 echo "Building web..."
 flutter build web
 
-# Overwrite the generated favicon with DeepState logo
-cp build/web/deepstate.png build/web/favicon.png

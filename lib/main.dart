@@ -13,6 +13,7 @@ void main() {
   );
 }
 
+/// The main widget of the application.
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

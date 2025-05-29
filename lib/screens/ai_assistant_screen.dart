@@ -18,10 +18,11 @@ class _AIAssistantScreenState extends State<AIAssistantScreen> {
   bool _isTyping = false;
   bool _hasMessages = false;
 
+  // Updated the api key
   @override
   void initState() {
     super.initState();
-    _geminiService = GeminiService("AIzaSyBHcypf8CrnyJt7Phe6XJfeVL5cyDPMonI");
+    _geminiService = GeminiService("AIzaSyDxCFMObGO8eoZ_jvCSgqAHEhpASywZPMM");
   }
 
   void _sendMessage() async {
